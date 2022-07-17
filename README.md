@@ -3,8 +3,8 @@
 -------------
   
 ## __Contact:__  
-Discord > Sans_moderation#6323 *(535075042791260180)*  
-Discord Server > [link](https://discord.gg/KnekBfkEM5)
+📩 Discord > Sans_moderation#6323 *(535075042791260180)*  
+🌐 Discord Server > [link](https://discord.gg/KnekBfkEM5)
 ## __Use:__  
 
 * > Get uuid  
