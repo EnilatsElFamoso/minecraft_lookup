@@ -20,4 +20,18 @@
 
 [1]:https://github.com/EnilatsElFamoso
 
-<iframe src="https://discord.com/widget?id=931963941184237629&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+<script type="text/javascript" src="http://discord.deliriousdrunkards.com/discord.min.js"></script>
+<script type="text/javascript">
+    discordWidget.init({
+        serverId: '931963941184237629',
+        title: 'R.D.A.C',
+        join: false,
+        alphabetical: false,
+        theme: 'dark',
+        hideChannels: ['Channel Name 1', 'Channel Name 2'],
+        showAllUsers: true,
+        allUsersDefaultState: true
+    });
+    discordWidget.render();
+</script>
+<div class="discord-widget"></div>
