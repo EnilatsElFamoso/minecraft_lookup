@@ -3,8 +3,8 @@
 -------------
   
 ## __Contact:__
-👍 Github > __[@EnilatsElFamoso][1]__  
-🌐 [Discord serveur](https://discord.gg/KnekBfkEM5)
+👍 Github > __[@EnilatsElFamoso][https://github.com/EnilatsElFamoso]__  
+🌐 Discord > [R.D.A.C](https://discord.gg/KnekBfkEM5)
 ## __Feature:__  
 
 * ✔️ Get uuid  
@@ -17,5 +17,3 @@
 *(from username)*
 
 -------------
-
-[1]:https://github.com/EnilatsElFamoso
