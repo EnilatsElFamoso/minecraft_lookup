@@ -7,11 +7,11 @@ Discord > Sans_moderation#6323 *(535075042791260180)*
   
 ## __Use:__  
 
-* > Get uuid
+* > Get uuid  
 *(from username)*
 *  > Get username  
 *(from uuid)*
-*  > Get username history
+*  > Get username history  
 *(from username)*
 
 -------------
