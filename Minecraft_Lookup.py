@@ -1,7 +1,7 @@
 import requests
 import os
 
-system("title " + "100% made by Sans_moderation#6323  (535075042791260180) ")
+system("title " + "by Sans moderation")
 os.system('cls')
 
 def lookup():
