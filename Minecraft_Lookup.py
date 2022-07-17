@@ -1,7 +1,6 @@
 import requests
 import os
 
-system("title " + "by Sans moderation")
 os.system('cls')
 
 def lookup():
