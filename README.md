@@ -1,4 +1,4 @@
-#### Minecraft Lookup (RDAC) 
+### Minecraft Lookup (RDAC) 
 
 -------------
   
