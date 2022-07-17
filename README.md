@@ -7,13 +7,13 @@
 🌐 Discord Server > [link](https://discord.gg/KnekBfkEM5)
 ## __Use:__  
 
-* > Get uuid  
+* ✔️> Get uuid  
 *(from username)*
-*  > Get username  
+*  ✔️> Get username  
 *(from uuid)*
-*  > Get username history  
+*  ✔️> Get username history  
 *(from username)*
-*  > Get skin url 
+*  ✔️> Get skin url  
 *(from username)*
 
 -------------
