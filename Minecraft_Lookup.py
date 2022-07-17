@@ -5,7 +5,7 @@ os.system('cls')
 
 def lookup():
     def get_uuid():
-        username = input("Pseudo: ")
+        username = input("Username: ")
 
         resp = requests.get(f"https://api.mojang.com/users/profiles/minecraft/{username}")
         uuid = resp.json()["id"]
@@ -21,13 +21,13 @@ def lookup():
         resp = requests.get(f"https://sessionserver.mojang.com/session/minecraft/profile/{uuid}")
         username = resp.json()["name"]
 
-        print(f"Le pseudo associé a cette UUID est {username}")
+        print(f"The current username for this uuid is {username}")
         del uuid
         del resp
         del username
 
     def get_username_history():
-        username = input("Pseudo: ")
+        username = input("Username: ")
 
         resp = requests.get(f"https://api.mojang.com/users/profiles/minecraft/{username}")
         uuid = resp.json()["id"]
@@ -49,14 +49,26 @@ def lookup():
         del history
         del name_data
 
+    def get_skin():
+        username = input("Username: ")
+
+        resp = requests.get(f"https://api.mojang.com/users/profiles/minecraft/{username}")
+        uuid = resp.json()["id"]
+
+        print(f"Current skin for this username is https://crafatar.com/skins/{uuid}\nCurrent skin for this username in 3d  is https://crafatar.com/renders/body/{uuid}")
+        del uuid
+        del resp
+        del username
+
     print("""
     [1] Get uuid
     [2] Get username with uuid
-    [3] Name History
+    [3] Get name History
+    [4] Get skin
     """)
     choice =input("\n [>] ")
 
-    if choice not in ['1', '2', '3']:
+    if choice not in ['1', '2', '3', '4']:
         os.system('cls')
         lookup()
     
@@ -73,6 +85,11 @@ def lookup():
     elif choice == '3':
         os.system('cls')
         get_username_history()
+        lookup()
+
+    elif choice == '4':
+        os.system('cls')
+        get_skin()
         lookup()
 
 lookup()
