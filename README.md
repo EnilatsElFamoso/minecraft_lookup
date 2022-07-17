@@ -2,8 +2,8 @@
 
 -------------
   
-## __Contact:__  
-📩 Discord > Sans_moderation#6323 *(535075042791260180)*  
+## __Contact:__
+👍 Github > __[@EnilatsElFamoso] [1]__
 🌐 Discord Server > [link](https://discord.gg/KnekBfkEM5)
 ## __Feature:__  
 
@@ -17,3 +17,5 @@
 *(from username)*
 
 -------------
+
+[1] https://github.com/EnilatsElFamoso
