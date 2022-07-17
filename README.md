@@ -13,5 +13,7 @@
 *(from uuid)*
 *  > Get username history  
 *(from username)*
+*  > Get skin url 
+*(from username)*
 
 -------------
