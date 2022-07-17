@@ -3,7 +3,7 @@
 -------------
   
 ## __Contact:__
-👍 Github > __[@EnilatsElFamoso] [1]__
+👍 Github > __[@EnilatsElFamoso] [1]__  
 🌐 Discord Server > [link](https://discord.gg/KnekBfkEM5)
 ## __Feature:__  
 
