@@ -8,6 +8,7 @@ system("title " + "MinecraftLookup")
 
 def lookup():
     def get_uuid():
+        os.system('cls')
         username = input("Username: ")
 
         resp = requests.get(f"https://api.mojang.com/users/profiles/minecraft/{username}")
@@ -19,6 +20,7 @@ def lookup():
         del username
 
     def get_username():
+        os.system('cls')
         uuid = input("Uuid: ")
 
         resp = requests.get(f"https://sessionserver.mojang.com/session/minecraft/profile/{uuid}")
@@ -30,6 +32,7 @@ def lookup():
         del username
 
     def get_username_history():
+        os.system('cls')
         username = input("Username: ")
 
         resp = requests.get(f"https://api.mojang.com/users/profiles/minecraft/{username}")
@@ -53,6 +56,7 @@ def lookup():
         del name_data
 
     def get_skin():
+        os.system('cls')
         username = input("Username: ")
 
         resp = requests.get(f"https://api.mojang.com/users/profiles/minecraft/{username}")
@@ -76,22 +80,18 @@ def lookup():
         lookup()
     
     elif choice == '1':
-        os.system('cls')
         get_uuid()
         lookup()
 
     elif choice == '2':
-        os.system('cls')
         get_username()
         lookup()
 
     elif choice == '3':
-        os.system('cls')
         get_username_history()
         lookup()
 
     elif choice == '4':
-        os.system('cls')
         get_skin()
         lookup()
 
