@@ -1,7 +1,10 @@
 import requests
 import os
+from os import system
 
 os.system('cls')
+
+system("title " + "MinecraftLookup")
 
 def lookup():
     def get_uuid():
