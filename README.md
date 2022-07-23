@@ -15,6 +15,8 @@
 *(from username)*
 *  ✔️ Get skin url  
 *(from username)*
+*  ✔️ Get hypixel info    
+*(from username)*
 
 -------------
 
